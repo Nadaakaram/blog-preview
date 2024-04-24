@@ -1,0 +1,49 @@
+body {
+    width:100%
+    margin: auto;
+    background-color: hsl(47, 88%, 63%);
+    position: relative;
+    font-family: "Figtree", sans-serif;
+}
+.content-img {
+    border-radius: 8px;
+    margin-left: 8.5px;
+}
+.label {
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: hsl(47, 88%, 63%);
+}
+.content {
+    background-color: white;
+    border-radius: 8px;
+    border-width: 0.5px ;
+    border: solid rgb(43, 43, 43);
+    box-shadow: 5px 5px ;
+    max-width: 350px;
+    padding: 20px 20px;
+    margin: auto;
+}
+.info {
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+}
+
+.content:hover {
+    box-shadow: 10px 10px;
+}
+.title:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.label,.date ,.title,.info {
+    text-align: left;
+}
+.pd-y {
+    padding: 120px;
+}
